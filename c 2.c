@@ -1,16 +1,12 @@
+
 #include <unistd.h>
 #include <stdio.h>
 
-int main(int argc, char **argv){
-    
-    float temp;
-
-    printf("Temperature en C : \n");
-    scanf("%f", &temp);
-
-    temp = (temp * 1.8) + 32;
-
-    printf("Temperature en F : %f\n", temp);
+int main(){
+    float miles = 10, km;
+    miles = (km*1.609);
+    printf("%f miles = %f km",miles,km);
 
     return 0;
 } 
+
