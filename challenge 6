@@ -1,0 +1,17 @@
+
+#include <unistd.h>
+#include <stdio.h>
+
+int main(){
+    int a, b;
+    printf("entrer a et b/n");
+    scanf("%d" , &a);
+    scanf("%d" , &b);
+    printf("a+b=%d a-b=%d a*b=%d a/b=%d a%%b=%d", a+b, a-b, a*b, a/b, a%b );
+    
+
+    
+    
+    return 0;
+} 
+
