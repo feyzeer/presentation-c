@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main(){
+int a,b,Resultat;
+    printf("entrer un nombre: ");
+    scanf("%d",&a);
+    for (b=1;b<=10;b++)
+    {
+        Resultat=a*b;
+        printf("%d,*%d,=%d\n",a,b,Resultat);
+    }
+    return 0;
+}
