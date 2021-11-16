@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+#include <unistd.h>
+
+
+
+int main()
+{
+    float longueur;
+    float largeur;
+    printf("saisir longeur et largeur: \n");
+    scanf("%f", &longueur);
+    scanf("%f",&largeur);
+    printf("circonférence : %f\n",2*(longueur + largeur));
+    
+    
+
+    return 0;
+}

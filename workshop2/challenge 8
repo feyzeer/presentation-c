@@ -1,0 +1,21 @@
+#include <unistd.h>
+#include <stdio.h>
+
+int main(){
+
+    int nombre;
+    
+    printf("donner un entier :\n");
+    scanf("%d", &nombre);
+
+    if (nombre < 0)
+        printf("le nombre %d est negatif\n", nombre);
+    else {
+        if (nombre > 0)
+            printf("le nombre %d est positif\n", nombre);
+        else
+            printf("le nombre %d est nul\n", nombre);
+    }
+
+    return 0;
+}

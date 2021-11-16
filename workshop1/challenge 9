@@ -1,0 +1,22 @@
+
+#include <math.h>
+#include <stdio.h>
+float distance(int a, int b , int c , int d){
+    return(sqrt(pow((a-c),2)+pow((b-d),2)));   
+} 
+int main(){
+    int xa ,ya, xb, yb;
+    printf("entrer les coordonnées:\n");
+    printf("entrer xa");
+    scanf("%d" ,&xa);
+    printf("entrer ya");
+    scanf("%d" ,&ya);
+    printf("entrer xb");
+    scanf("%d" ,&xb);
+    printf("entrer yb");
+    scanf("%d" ,&yb);
+    printf("la distance=%f",distance(xa, ya, xb, yb));
+
+return 0;
+}
+    

@@ -1,0 +1,26 @@
+#include <unistd.h>
+#include <stdio.h>
+
+
+  void print_reverse (int nb){
+  
+
+
+    
+    printf("%d",nb % 10);
+    if(nb >= 10)
+    print_reverse(nb/10);
+}
+
+    int main (){
+ int nb;
+ printf("saisir le nombre: \n");
+ scanf("%d",&nb);
+ print_reverse(nb);
+ printf("\n");
+    
+    
+    
+    
+    return 0;
+  }

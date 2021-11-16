@@ -1,0 +1,42 @@
+
+#include <stdio.h>
+#include <unistd.h>
+
+int main()
+
+{  char T;
+printf("entrer caractère:\n");
+scanf("%c", &T);
+switch(T){
+    case('a'):
+    printf("voyelle\n");
+    break;
+    
+    case('o'):
+    printf("voyelle\n");
+    break;
+    
+    case('u'):
+    printf("voyelle\n");
+    break;
+    
+    case('i'):
+    printf("voyelle\n");
+    break;
+    
+    case('e'):
+    printf("voyelle\n");
+    break;
+    
+    case('y'):
+    printf("voyelle\n");
+    break;
+    
+    default:
+    printf("non voyelle\n");
+}
+
+  
+
+    return 0;
+}

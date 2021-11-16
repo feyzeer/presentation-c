@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main()
+{
+    float temperature;
+    printf("veuillez entrer la temperature d eau: ");
+    scanf("%f", &temperature);
+    if(temperature<=0)
+    printf("glace");
+    else if(temperature>0&&temperature<100)
+    printf("eau");
+    else 
+    printf("vapeur");
+ 
+
+    return 0;
+}

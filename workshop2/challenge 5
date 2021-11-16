@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+
+void main()
+{
+    int a,b,c;
+    printf("donner la premiere valeur");
+    scanf("%d",&a);
+    printf("donner la deuxieme valeur");
+    scanf("%d",&b);
+    c=a+b;
+    printf("la valeur des deux sommes,%d",c);
+    if(a==b){
+    c=(a+b)*3;
+    printf("la valeurs des deux sommes triplés,%d",c);
+    }
+
+    return 0;
+}
