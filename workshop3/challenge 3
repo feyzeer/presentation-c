@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int n, b;
+    printf("entrer u nombre entier: ");
+    scanf("%d",&n);
+     for(b=2;b<=(n/2);b++){
+     if(n%b==0)
+     printf("le nombre est premier.");
+     else if(n%b!=0)
+     printf("le nombre n'est pas premier.");}
+    return 0;
+}
