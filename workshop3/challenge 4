@@ -1,0 +1,28 @@
+
+#include <unistd.h>
+#include <stdio.h>
+
+
+int main(void){
+
+    int nombre;
+    int somme = 0;
+    int maxi = 0;
+
+    while (1) {
+        printf("veuillez entrer une série de nbr et terminez là avec un 0 : ");
+        scanf("%d", &nombre);
+        if (nombre <= 100 && nombre> 0)
+            somme += nombre;
+            if (nombre > maxi && nombre <= 100)
+                maxi = nombre;
+        else if (nombre == 0){
+            printf("somme = %d\n", somme);
+            printf("maxi = %d\n", maxi);
+            break;
+        }
+
+    }
+
+    return 0;
+}
