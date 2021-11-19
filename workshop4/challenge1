@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+int add(int a, int b){
+int resultat;
+resultat = a+b;
+return resultat;}
+
+
+int main()
+{
+  printf("result = %d\n", add(5, 10));
+    return 0;
+}
